@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Reset properties */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #d6d4e2;
+  --thrid-color: #787490;
+  --fourth-color: #18161f;
+}
+
+/* Global styles */
+.fnt-md {
+  font: 500 1.25rem/1.75rem "Space Grotesk", sans-serif;
+}
+
+.fnt-bg {
+  font: 700 2rem/3rem "Space Grotesk", sans-serif;
+}
+
+
+.container_content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.container_card_pix {
+  display: flex;
+  align-items: center;
+  background: var(--secondary-color);
+  justify-content: center;
+  height: 720px;
+  width: 1280px;
+}
+
+.card_pix {
+  background: var(--primary-color);
+  border-radius: 2rem;
+  color: var(--secondary-color);
+  gap: .625rem;
+  height: 15.25rem;
+  padding: 2rem 1.5rem;
+  width: 13rem;
+  transition: 300ms ease-in-out;
+
+  &:hover {
+    background: var(--fourth-color);
+    color: var(--primary-color);
+  }
+}
+
+.card_title {
+  color: var(--thrid-color);
+  margin: 1rem 0;
+}
+
+.card_value {
+  color: var(--fourth-color);
+}
