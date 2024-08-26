@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+/* Reset properties */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #d6d4e2;
+  --thrid-color: #787490;
+  --fourth-color: #18161f;
+  --fiveth-color: #F5F4F6;
+}
+
+/* Global styles */
+.fnt-md {
+  font: 500 1.25rem/1.75rem "Space Grotesk", sans-serif;
+}
+
+.fnt-bg {
+  font: 700 2rem/3rem "Space Grotesk", sans-serif;
+}

@@ -1,0 +1,81 @@
+.container_content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.container_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--secondary-color);
+  justify-content: start;
+  height: 720px;
+  width: 1280px;
+  padding: 1.5rem 0;
+}
+
+.comments {
+  display: flex;
+  flex-flow: column;
+  height: 600px;
+  width: 45rem;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  background: var(--primary-color);
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  width: 720px;
+}
+
+.user {
+  padding: 1.5rem;
+  ;
+}
+
+.txt_comment,
+.txt_p {
+  font: 400 24px/32px "Space Grotesk", sans-serif;
+  color: var(--fourth-color);
+}
+
+.user_name,
+.ft_txt {
+  font: 700 24px/32px "Space Grotesk", sans-serif;
+}
+
+.comment_time {
+  color: var(--thrid-color);
+}
+
+
+.comment:not(:nth-last-child(2)) {
+  border-radius: 2rem;
+}
+
+.comment:nth-last-child(2) {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.likes {
+  display: inline-block;
+  background: url("../assets/assets-03/likes.svg") no-repeat;
+  height: 32px;
+  width: 100px;
+  margin-right: 1.5rem;
+}
+
+.ft_comments {
+  display: flex;
+  background: var(--fiveth-color);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  flex: 1;
+  padding: 1rem 2.5rem;
+}
