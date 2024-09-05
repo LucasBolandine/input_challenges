@@ -12,7 +12,7 @@
   align-items: center;
   background: var(--secondary-color);
   justify-content: start;
-  height: 720px;
+  height: 100%;
   width: 1280px;
   padding: 1.5rem 0;
 }
@@ -78,4 +78,9 @@
   border-bottom-right-radius: 2rem;
   flex: 1;
   padding: 1rem 2.5rem;
+
+}
+
+.comments.ps-relative {
+  position: relative;
 }
