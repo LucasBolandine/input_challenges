@@ -7,10 +7,10 @@ console.log(posts);
 
 const getPosts = async () => {
   try {
-    const posts = await fetch("https://jsonplaceholder.typicode.com/posts")
-    const textPosts = await posts.json()
+    const posts = await fetch("https://jsonplaceholder.typicode.com/posts").then(posts => posts.json())
+    console.log("Aqui", posts);
 
-    return textPosts
+    return posts
   } catch (error) {
     console.log(error);
   }

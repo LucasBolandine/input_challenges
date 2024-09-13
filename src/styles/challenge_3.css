@@ -1,0 +1,104 @@
+* {
+  font-family: "Space Grotesk";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  padding: 5rem;
+}
+
+.app_current-day {
+  margin-bottom: 3.5rem;
+}
+
+.app_title-page {
+  color: var(--thrid-color);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+.currency-day {
+  color: var(--fourth-color);
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.3rem;
+  margin-top: 1rem;
+}
+
+.app_cards {
+  display: flex;
+  gap: 2rem;
+}
+
+.card {
+  flex: 1;
+  max-width: 324px;
+  border: 2px solid #D6D4E2;
+  border-radius: 2rem;
+}
+
+.app_main-user {
+  padding: 1.5rem;
+}
+
+.app_main-user>h2 {
+  color: var(--fourth-color);
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.user_dt {
+  color: var(--fourth-color);
+  font-weight: 500;
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.user_dt>span {
+  display: inline-block;
+  color: var(--thrid-color);
+}
+
+.app_main-user>footer {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.app_comments,
+.app_viewes {
+  display: flex;
+  gap: .2rem;
+  align-items: center;
+}
+
+.app_total-comments,
+.app_total-viewes {
+  color: var(--thrid-color);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.app_comment-icon,
+.app_viewes-icon {
+  display: block;
+  height: 32px;
+  width: 32px;
+  background: url("../assets/challgenge_3/comment.svg");
+}
+
+.app_viewes-icon {
+  background: url("../assets/challgenge_3/view.svg");
+}
